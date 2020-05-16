@@ -1,0 +1,26 @@
+{
+  "name": "burgerapp",
+  "version": "1.0.0",
+  "description": "handlebars burger app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/16sfisher/burgerApp.git"
+  },
+  "author": "Sawyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/16sfisher/burgerApp/issues"
+  },
+  "homepage": "https://github.com/16sfisher/burgerApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1",
+    "sequelize": "^5.21.5"
+  }
+}
